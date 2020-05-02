@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1DD71B245A7DD400EA2925 /* Gestures01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1DD71A245A7DD400EA2925 /* Gestures01.swift */; };
+		1D1DD71D245AA9B200EA2925 /* ScrollViewH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1DD71C245AA9B200EA2925 /* ScrollViewH.swift */; };
+		1D1DD746245AD91500EA2925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1DD745245AD91500EA2925 /* Assets.xcassets */; };
+		1D7A0272245BCFE200BDD519 /* RotationGesture01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A0271245BCFE200BDD519 /* RotationGesture01.swift */; };
 		1DC83C47245527F3001F2F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC83C46245527F3001F2F3A /* AppDelegate.swift */; };
 		1DC83C49245527F3001F2F3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC83C48245527F3001F2F3A /* SceneDelegate.swift */; };
 		1DC83C4C245527F3001F2F3A /* SwiftUIViewCollections.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DC83C4A245527F3001F2F3A /* SwiftUIViewCollections.xcdatamodeld */; };
 		1DC83C4E245527F3001F2F3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC83C4D245527F3001F2F3A /* ContentView.swift */; };
-		1DC83C50245527F4001F2F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC83C4F245527F4001F2F3A /* Assets.xcassets */; };
 		1DC83C53245527F4001F2F3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC83C52245527F4001F2F3A /* Preview Assets.xcassets */; };
 		1DC83C56245527F4001F2F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC83C54245527F4001F2F3A /* LaunchScreen.storyboard */; };
 		1DC83C5E2455281E001F2F3A /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC83C5D2455281E001F2F3A /* TabBarView.swift */; };
@@ -22,12 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D1DD71A245A7DD400EA2925 /* Gestures01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures01.swift; sourceTree = "<group>"; };
+		1D1DD71C245AA9B200EA2925 /* ScrollViewH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewH.swift; sourceTree = "<group>"; };
+		1D1DD745245AD91500EA2925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D7A0271245BCFE200BDD519 /* RotationGesture01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture01.swift; sourceTree = "<group>"; };
 		1DC83C43245527F3001F2F3A /* SwiftUIViewCollections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIViewCollections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC83C46245527F3001F2F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DC83C48245527F3001F2F3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1DC83C4B245527F3001F2F3A /* SwiftUIViewCollections.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIViewCollections.xcdatamodel; sourceTree = "<group>"; };
 		1DC83C4D245527F3001F2F3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1DC83C4F245527F4001F2F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DC83C52245527F4001F2F3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DC83C55245527F4001F2F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DC83C57245527F4001F2F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,7 +82,10 @@
 				1DC83C6324557DB2001F2F3A /* NeumorphismView02.swift */,
 				1DEC89542456D12100FC92F5 /* GeometryReader01.swift */,
 				1DEC895824570E2000FC92F5 /* LoginView.swift */,
-				1DC83C4F245527F4001F2F3A /* Assets.xcassets */,
+				1D1DD71A245A7DD400EA2925 /* Gestures01.swift */,
+				1D1DD71C245AA9B200EA2925 /* ScrollViewH.swift */,
+				1D7A0271245BCFE200BDD519 /* RotationGesture01.swift */,
+				1D1DD745245AD91500EA2925 /* Assets.xcassets */,
 				1DC83C54245527F4001F2F3A /* LaunchScreen.storyboard */,
 				1DC83C57245527F4001F2F3A /* Info.plist */,
 				1DC83C4A245527F3001F2F3A /* SwiftUIViewCollections.xcdatamodeld */,
@@ -152,8 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC83C56245527F4001F2F3A /* LaunchScreen.storyboard in Resources */,
+				1D1DD746245AD91500EA2925 /* Assets.xcassets in Resources */,
 				1DC83C53245527F4001F2F3A /* Preview Assets.xcassets in Resources */,
-				1DC83C50245527F4001F2F3A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,10 +175,13 @@
 			files = (
 				1DC83C4C245527F3001F2F3A /* SwiftUIViewCollections.xcdatamodeld in Sources */,
 				1DC83C6024552993001F2F3A /* NeumorphismView01.swift in Sources */,
+				1D7A0272245BCFE200BDD519 /* RotationGesture01.swift in Sources */,
+				1D1DD71D245AA9B200EA2925 /* ScrollViewH.swift in Sources */,
 				1DC83C47245527F3001F2F3A /* AppDelegate.swift in Sources */,
 				1DEC895924570E2000FC92F5 /* LoginView.swift in Sources */,
 				1DC83C4E245527F3001F2F3A /* ContentView.swift in Sources */,
 				1DC83C5E2455281E001F2F3A /* TabBarView.swift in Sources */,
+				1D1DD71B245A7DD400EA2925 /* Gestures01.swift in Sources */,
 				1DC83C6424557DB2001F2F3A /* NeumorphismView02.swift in Sources */,
 				1DEC89552456D12100FC92F5 /* GeometryReader01.swift in Sources */,
 				1DC83C49245527F3001F2F3A /* SceneDelegate.swift in Sources */,
