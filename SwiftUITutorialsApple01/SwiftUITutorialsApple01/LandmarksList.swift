@@ -10,23 +10,31 @@ import SwiftUI
 
 struct LandmarksList: View {
     
-    @State var showFavoritesOnly = false
+    @EnvironmentObject var userData: UserData
     
     var body: some View {
         NavigationView {
-            List(landmarkData) { landmark in
-                NavigationLink(destination: DetailView(landmark: landmark)) {
-                    LandmarkRow(landmark: landmark)
+            List {
+                Toggle(isOn: $userData.showFavoritesOnly) {
+                    Text("Favorites Only")
                 }
+                
+                ForEach(userData.landmarks) { landmark in
+                    if !self.userData.showFavoritesOnly || landmark.isFavorite {
+                        NavigationLink(destination: DetailView(landmark: landmark)) {
+                            LandmarkRow(landmark: landmark)
+                        }
+                    }
+                }
+                .navigationBarTitle(Text("Landmarks"))
             }
-            .navigationBarTitle(Text("Landmarks"))
         }
     }
 }
 
 struct LandmarksList_Previews: PreviewProvider {
     static var previews: some View {
-         LandmarksList()
+        LandmarksList().environmentObject(UserData())
         
     }
 }
